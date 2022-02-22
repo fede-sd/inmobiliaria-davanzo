@@ -1,0 +1,48 @@
+@media (max-width:873px) {
+    h1 {
+        text-align: center;
+    }
+
+    .formulario {
+        margin: 5px;
+    }
+
+    .nav-link::after {
+        display: none;
+    } 
+
+    body .text1{
+        font-size: 1.5rem;
+    }
+
+     @keyframes text{
+         0%{          
+             color: black;             
+         }
+         30%{            
+             letter-spacing: 1rem;             
+         }
+         85%{             
+             letter-spacing: 0.5rem;             
+         }
+     }
+
+   body .contenedorimg {  
+        width: 70vw;              
+        height: 30vh;        
+        margin-bottom: 0px;
+    } 
+
+
+    .contenedorGaleria {     
+        grid-auto-rows: 150px;    
+    }
+}
+
+@media (min-width:461px) and (max-width:873px) {
+    body .contenedorimg {  
+        width: 40vw;              
+        height: 25vh;        
+        // margin-bottom: 0px;
+    } 
+}

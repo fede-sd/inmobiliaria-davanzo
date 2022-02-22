@@ -1,0 +1,12 @@
+$textoResaltado:(
+    destacado1:1.3rem,
+    destacado2:1rem,
+);
+
+@each $frases,
+$tamanio in $textoResaltado {
+    .#{$frases} {
+        font-size  : $tamanio;
+        font-weight: bold;    
+    }
+}
